@@ -24,13 +24,8 @@ class Table extends Component {
                             <td><input type='checkbox'/></td>
                             <td>X</td>
                         </tr>
-                        <tr>
-                            <td>name will added</td>
-                            <td><input type='checkbox'/></td>
-                            <td><input type='checkbox'/></td>
-                            <td><input type='checkbox'/></td>
-                            <td>X</td>
-                        </tr>
+
+
                     </tbody>
                 </table>
 
