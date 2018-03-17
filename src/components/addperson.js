@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Table from './table';
 
 class Add extends Component {
     render() {
@@ -11,11 +12,11 @@ class Add extends Component {
                         <p><input type="checkbox" className="checkbox-inline" name="super-power" /> Super power</p>
                         <p><input type="checkbox" className="checkbox-inline" name="rich" /> rich</p>
                         <p><input type="checkbox" className="checkbox-inline" name="genius" /> Genius</p>
-                        <button type="button" className="btn btn-default">Add</button>
+                        <button type="button" className="btn btn-success">Add</button>
 
                     </div>
                 </form>
-
+                <Table/>
             </div>
         );
     }
