@@ -17,8 +17,9 @@ class Table extends Component {
                     </tr>
                     </thead>
                     <tbody>
-                    {this.props.person.map(function (name) {
-                        return (<tr>{name}</tr>);
+                    {this.props.person.map(function (name, index) {
+                        return (<tr key={`person-${index}`}><td>{name}</td></tr>
+                        );
                     })}
                     </tbody>
 
